@@ -12,5 +12,6 @@
   "awesomeTypescriptLoaderOptions": {
     "forkChecker": true,
     "useWebpackText": true
-  }
+  },
+  "exclude": ["angular-cli-tools", "node_modules"]
 }
