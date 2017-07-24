@@ -5,6 +5,8 @@ import {AppComponent} from './app.component';
 import {routing} from './app.routing';
 import {CoreModule} from './core/core.module';
 import {AppLayoutModule} from './views/app-layout/app-layout.module';
+import {AngularFireModule} from 'angularfire2';
+import {environment} from '../environments';
 
 @NgModule({
     imports: [
@@ -12,6 +14,7 @@ import {AppLayoutModule} from './views/app-layout/app-layout.module';
         routing,
         CoreModule,
         AppLayoutModule,
+        AngularFireModule.initializeApp(environment.firebase)
     ],
     declarations: [
         AppComponent,

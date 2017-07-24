@@ -74,6 +74,22 @@ What you need to run this app:
 * `clone` your fork
 * `npm install` to install all dependencies
 
+## Firebase Setup
+
+Navigate to `src/environment.ts` and change the firebase paramters to those in your own firebase application
+
+#### Required Parameters
+
+* apiKey
+
+#### Optional Parameters
+
+* authDomain
+* databaseURL
+* projectId
+* storageBucket
+* messagingSenderId
+
 ## Developing
 
 After you have installed all dependencies you can now start developing with:
